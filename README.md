@@ -21,33 +21,38 @@
 
 ## 📸 功能预览
 
-> 💡 将下方占位链接替换为你的 GitHub Release 附件或图床链接，引流效果会显著提升。
-
 <table>
   <tr>
     <td align="center" width="50%">
-      <img width="100%" alt="主界面与对局数据总览" src="docs/images/main-dashboard.png" />
-      <br><sub>主界面 · 对局数据总览</sub>
+      <img width="100%" alt="对局数据总览" src="docs/images/main-dashboard.png" />
+      <br><sub>对局分析 · 双方队伍数据对比</sub>
     </td>
     <td align="center" width="50%">
-      <img width="100%" alt="海克斯评级与 AI 分析" src="docs/images/hextech-rating.png" />
-      <br><sub>海克斯评级 · AI 智能分析</sub>
+      <img width="100%" alt="海克斯评级" src="docs/images/hextech-rating.png" />
+      <br><sub>海克斯评级 · S/A/B/C 实时推荐</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img width="100%" alt="英雄排行榜与推荐" src="docs/images/champion-rank.png" />
-      <br><sub>英雄排行榜 · 出装 / 强化推荐</sub>
+      <img width="100%" alt="英雄排行榜" src="docs/images/champion-rank.png" />
+      <br><sub>英雄排行榜 · 选英雄时 Overlay 展示</sub>
     </td>
     <td align="center" width="50%">
-      <img width="100%" alt="个人生涯与数据统计" src="docs/images/career-stats.png" />
-      <br><sub>个人生涯 · 详细数据统计</sub>
+      <img width="100%" alt="个人生涯" src="docs/images/career-stats.png" />
+      <br><sub>个人生涯 · 多模式胜率统计</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img width="100%" alt="三强化组合推荐" src="docs/images/combo-detail.png" />
+      <br><sub>三强化组合 · 出装与评级详情</sub>
+    </td>
+    <td align="center" width="50%">
+      <img width="100%" alt="游戏内 Overlay" src="docs/images/overlay-ingame.png" />
+      <br><sub>游戏内 Overlay · 选人与组合同步展示</sub>
     </td>
   </tr>
 </table>
-
-<!-- 可选：添加演示 GIF，GitHub 首页点击率通常比静态图高 2-3 倍 -->
-<!-- <img width="100%" alt="演示 GIF" src="docs/images/demo.gif" /> -->
 
 ---
 
