@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: ⭐ 给项目点个 Star
+    url: https://github.com/a923878100/EveAssistant
+    about: 如果觉得有用，Star 一下支持我们持续更新
+  - name: 📖 查看 README
+    url: https://github.com/a923878100/EveAssistant#readme
+    about: 安装、使用与常见问题
