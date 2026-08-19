@@ -2,9 +2,11 @@
 
 # 👻 伊芙琳助手 · Eve Assistant
 
-**专为《英雄联盟》海克斯大乱斗 & 峡谷对局打造的本地智能辅助工具**
+**《英雄联盟》海克斯大乱斗 & 峡谷对局的辅助工具**
 
-实时覆盖层 · 海克斯评级 · AI 对局分析 · OP.GG 数据同步 · 零云端上传
+实时覆盖层 · 海克斯评级 · AI 对局分析 · 网络数据同步 · 零云端上传
+
+QQ交流群：1105114764
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.9%20|%203.10%20|%203.11%20|%203.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
@@ -13,7 +15,7 @@
 
 [功能预览](#-功能预览) · [快速开始](#-快速开始) · [核心功能](#-核心功能) · [常见问题](#-常见问题) · [免责声明](#-免责声明)
 
-⭐ **如果这个项目对你有帮助，欢迎 Star — 你的支持是我们持续更新的最大动力！**
+⭐ **如果这个项目对你有帮助，欢迎 Star — 你的支持是我们持续维护的最大动力！**
 
 </div>
 
@@ -56,14 +58,14 @@
 
 ---
 
-## 🚀 为什么选择伊芙琳助手？
+## 🚀 伊芙琳助手有哪些功能？
 
-| 痛点 | 伊芙琳助手的解法 |
+| 助手 | 伊芙琳LOL助手 |
 |------|------------------|
-| 海克斯三选一纠结 | **S/A/B/C 评级 + 组合推荐**，秒出优先级 |
-| 频繁切屏查 OP.GG | **游戏内 Overlay**，数据就在眼前 |
+| 海克斯三选一纠结 | **S/A/B/C 评级 + 组合推荐**，评出优先级 |
+| 频繁切屏查战绩| **游戏内 Overlay**，数据就在眼前 |
 | 不知道拿什么英雄 | **T0–T5 英雄梯队 + 胜率榜**，开局就有方向 |
-| 担心辅助工具封号 | **本地 OCR + 零云端上传**，数据不出本机 |
+| 担心辅助工具封号 | **本地OCR + 零云端上传**，数据不出本机 |
 | 战绩分散难复盘 | **多模式战绩筛选 + 生涯总览**，一目了然 |
 
 ---
@@ -74,9 +76,9 @@
 
 - **AI 智能对局分析** — 基于海量对局数据，实时输出趋势与英雄强度判断
 - **海克斯评级系统** — 独创评级算法，快速识别当前强化优先级（S / A / B / C）
-- **OP.GG 数据集成** — 同步韩服、欧服等顶尖服务器胜率、登场率与最优出装
-- **实时游戏覆盖层 (Overlay)** — 无需 Alt+Tab，关键信息直接显示在游戏画面
-- **OCR 本地识别** — 毫秒级响应，无网络延迟，隐私数据不上传
+- **OP.GG 数据集成** — 同步韩服、欧服等网络数据胜率、登场率与最优出装
+- **实时游戏覆盖层** — 无需 Alt+Tab，关键信息直接显示在游戏画面
+- **本地识别** — 毫秒级响应，无网络延迟，隐私数据不上传
 
 ### 🏆 海克斯大乱斗专项
 
@@ -97,8 +99,7 @@
 ### 环境要求
 
 - Windows 10 / 11
-- Python 3.9 – 3.12
-- 《英雄联盟》客户端（国服 / 国际服均可，以实际支持为准）
+- 《英雄联盟》客户端（以实际支持为准）
 
 ### 安装
 
@@ -107,18 +108,14 @@
 git clone https://github.com/a923878100/EveAssistant.git
 cd EveAssistant
 
-# 2. 创建虚拟环境（推荐）
-python -m venv .venv
-.venv\Scripts\activate
+# 2. 启动）
+下载打包好的 `.exe`，解压即用
 
-# 3. 安装依赖
-pip install -r requirements.txt
-
-# 4. 启动
-python main.py
 ```
 
 > 📦 **不想配环境？** 前往 [Releases](../../releases) 下载打包好的 `.exe`，解压即用。
+> **可选蓝奏下载:** https://wwbll.lanzoul.com/b002w4e43g
+
 
 ### 基本使用
 
@@ -129,59 +126,25 @@ python main.py
 
 ---
 
-## 📁 项目结构
-
-```
-EveAssistant/
-├── main.py              # 程序入口
-├── requirements.txt     # Python 依赖
-├── docs/
-│   └── images/          # README 截图与演示素材
-├── src/                 # 核心源码
-└── README.md
-```
-
-> 目录以实际仓库为准，上传前请对照修改。
-
----
-
-## 🏷️ 推荐 GitHub Topics
-
-在仓库 **Settings → Topics** 中添加以下标签，提升搜索曝光：
-
-```
-league-of-legends
-lol
-hextech-aram
-aram
-gaming-assistant
-overlay
-python
-opgg
-英雄联盟
-海克斯大乱斗
-```
-
----
 
 ## ❓ 常见问题
 
 <details>
 <summary><b>Q：会被封号吗？</b></summary>
 
-本工具采用**本地 OCR 识别**，不注入游戏进程、不修改游戏文件、不上传账号数据。但任何第三方工具均存在风险，请自行评估并在 [免责声明](#-免责声明) 范围内使用。
+本工具采用**本地 OCR 识别**，不注入游戏进程、不修改游戏内存、不上传账号数据。但任何第三方工具均存在风险，请自行评估并在 [免责声明](#-免责声明) 范围内使用。
 </details>
 
 <details>
 <summary><b>Q：支持 Mac / Linux 吗？</b></summary>
 
-当前版本面向 **Windows** 平台。其他系统如有需求，欢迎在 [Issues](../../issues) 中反馈。
+当前版本面向 **Windows** 平台。
 </details>
 
 <details>
 <summary><b>Q：数据来源是什么？</b></summary>
 
-英雄胜率、出装等数据集成自 **OP.GG** 等公开数据源；海克斯评级与组合推荐基于项目自研算法与对局样本。
+英雄胜率、出装等数据集成自 **OP.GG** 等网络公开数据源；海克斯评级与组合推荐基于项目自研算法与对局样本。
 </details>
 
 <details>
@@ -197,15 +160,6 @@ pip install -r requirements.txt --upgrade
 
 ---
 
-## 🤝 参与贡献
-
-欢迎提交 Issue 和 Pull Request！
-
-- 🐛 [报告 Bug](../../issues/new?template=bug_report.md)
-- 💡 [功能建议](../../issues/new?template=feature_request.md)
-- ⭐ **Star 本项目** — 帮助更多玩家发现它
-
----
 
 ## 📄 免责声明
 
@@ -218,9 +172,9 @@ pip install -r requirements.txt --upgrade
 
 ---
 
-## 📜 开源协议
+## 📜 为爱发电
 
-本项目基于 [MIT License](LICENSE) 开源。
+**QQ交流群：1105114764**
 
 ---
 
@@ -228,6 +182,6 @@ pip install -r requirements.txt --upgrade
 
 **如果觉得有用，请点个 ⭐ Star，让更多人看到！**
 
-Made with ❤️ by [a923878100](https://github.com/a923878100)
+Made with ❤️
 
 </div>
